@@ -2,7 +2,7 @@
 
 Script package for an 8-minute historical documentary, built for the `documentaire-motion-design` skill.
 
-- **Scenes:** 28 · **Spoken words:** 1054 · **Estimated runtime:** 8:01 (engine estimate: 2.4 words/s + 1.5 s per scene; the real runtime follows the voice tracks)
+- **Scenes:** 28 · **Spoken words:** 1054 · **Runtime:** 7:44 with the provisional Google voice (the runtime follows the voice tracks)
 - **Narration file:** [`src/gta/narration.json`](src/gta/narration.json), same text as below, ready for `creerFilm`
 - **Suggested style:** `nuit` (dark background, glowing shapes), with a pink/cyan accent from scene 13 on
 - **Visual rule:** everything is drawn as original shapes. No Rockstar logos, box art, screenshots or game footage.
@@ -29,18 +29,18 @@ Thumbnail idea: a top-down police car ramming a small red car, the word **BUG** 
 
 Why it works: it opens on a concrete moment (a dull game about to be cancelled), turns on one surprise (the bug), and makes a promise the film pays off in the last scene.
 
-## Chapters (estimated, recompute once the voice is recorded)
+## Chapters (from the provisional voice tracks; recompute after any re-record)
 
 ```
 0:00 The accident
-0:47 1997: Race'n'Chase
-2:10 1998: Rockstar
-2:29 2001: The third dimension
-3:27 2002–2004: Pop culture
-4:07 2005: Hot Coffee
-4:54 2008–2013: Breaking records
-6:22 2013–2026: The long wait
-7:29 What GTA means
+0:44 1997: Race'n'Chase
+2:06 1998: Rockstar
+2:24 2001: The third dimension
+3:16 2002–2004: Pop culture
+3:54 2005: Hot Coffee
+4:40 2008–2013: Breaking records
+6:06 2013–2026: The long wait
+7:16 What GTA means
 ```
 
 ## Scene-by-scene script
