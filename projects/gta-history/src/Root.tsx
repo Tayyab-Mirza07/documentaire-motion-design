@@ -1,6 +1,7 @@
 import {Composition, Still} from 'remotion';
 import {calculerDurees, FilmGTA} from './gta/Film';
 import {Miniature} from './gta/Miniature';
+import {MiniatureCRT} from './gta/MiniatureCRT';
 
 export const RemotionRoot = () => (
   <>
@@ -15,5 +16,6 @@ export const RemotionRoot = () => (
     height={1080}
   />
   <Still id="Miniature" component={Miniature} width={1280} height={720} />
+  <Still id="MiniatureCRT" component={MiniatureCRT} width={1280} height={720} defaultProps={{badge: 'OVER 480M COPIES'}} />
   </>
 );
